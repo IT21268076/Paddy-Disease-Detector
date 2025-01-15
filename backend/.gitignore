@@ -1,0 +1,80 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+*.out
+*.err
+
+# Cache
+*.cache
+.cache/
+*.pkl
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Test coverage reports
+htmlcov/
+coverage.xml
+*.coverage
+.cache/
+
+# Python-specific IDE files
+.idea/
+.vscode/
+
+# Docker and deployment
+*.dockerfile
+docker-compose*.yml
+*.envrc
+
+# FastAPI specific
+__pycache__/
+*.db
+*.sqlite3
+
+# Static files
+static/
+media/
+
+# Alembic (migrations)
+alembic/
+versions/
+
+# Security
+secrets.yml
+*.pem
+
+# Python testing tools
+.pytest_cache/
+.tox/
+
+# Lock files
+poetry.lock
+Pipfile.lock
